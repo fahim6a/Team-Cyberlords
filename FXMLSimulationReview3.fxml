@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="761.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLSimulationReview3Controller">
+   <stylesheets>
+      <URL value="@fxmlactionreview1.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="762.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7f96a2" layoutX="261.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SimCity BuildIt (4.3/5)">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Text fill="#eaad84" layoutX="63.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eaad84" layoutX="153.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Playstore Review (Barb Konrad)">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="simulationGame3Back" layoutX="614.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleSimulationGame3Back" style="-fx-background-color: #a1c2c9;" styleClass="simulationGame3Back" stylesheets="@FXMLSimulationReview3.css" text="Back">
+         <font>
+            <Font name="Courier New Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <JFXTextArea focusColor="#464040" labelFloat="true" layoutX="102.0" layoutY="131.0" prefHeight="174.0" prefWidth="567.0" text="Have been playing for years, have made long time friends and play every day. Love the challenges and have built my main city plus 3 regions. I belong to a really friendly club and we don't do the wars. We help each other and chat friendly chat. There are so many ways to earn sim bucks and simolians. You just have to ask your fellow mayors in your club. Be sure to join one. It's where you get help building your city. Love Sim City." unFocusColor="#514a4a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.89" contrast="0.75" hue="1.0" saturation="0.59" />
+         </effect>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

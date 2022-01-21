@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLOpenWorldGamesController">
+   <children>
+      <ImageView fitHeight="507.0" fitWidth="925.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(28).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="25.0" text="Top 5 Open-World Games" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="101.0" text="1." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="173.0" text="2." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="248.0" text="3." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="315.0" text="4." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="383.0" text="5." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(13).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(14).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(15).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(16).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(17).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="101.0" prefHeight="27.0" prefWidth="426.0" text="Oceanhorn (273 MB)" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="173.0" prefHeight="27.0" prefWidth="426.0" text="Crime Wars San Andreas (96 MB)" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="248.0" prefHeight="24.0" prefWidth="357.0" text="Real Gangstar Crime (104 MB)" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="315.0" prefHeight="24.0" prefWidth="357.0" text="Grand Theft Auto: Vice City (1.5 GB)" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="383.0" prefHeight="27.0" prefWidth="518.0" text="New Gangstar Crime (302 MB)" textFill="#7d7e8c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Button fx:id="OpenWorldBackButton" layoutX="52.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleOpenWorldBackButton" prefHeight="36.0" prefWidth="69.0" style="-fx-background-color: #a5a8a6;" styleClass="OpenWorldBackButton" stylesheets="@FXMLOpenWorldGames.css" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="165.0" fitWidth="200.0" layoutX="712.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(6).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="OpenWorldDownloadButton1" layoutX="202.0" layoutY="133.0" mnemonicParsing="false" onAction="#handleOpenWorldDownloadButton1" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton1" stylesheets="@FXMLOpenWorldGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="OpenWorldDownloadButton2" layoutX="202.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleOpenWorldDownloadButton2" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton2" stylesheets="@FXMLOpenWorldGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="OpenWorldDownloadButton3" layoutX="202.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleOpenWorldDownloadButton3" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton3" stylesheets="@FXMLOpenWorldGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="OpenWorldDownloadButton4" layoutX="202.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleOpenWorldDownloadButton4" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton4" stylesheets="@FXMLOpenWorldGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="OpenWorldDownloadButton5" layoutX="202.0" layoutY="419.0" mnemonicParsing="false" onAction="#handleOpenWorldDownloadButton5" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton5" stylesheets="@FXMLOpenWorldGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="openWorldReviewButton1" layoutX="645.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleOpenWorldReviewButton1" style="-fx-background-color: #a5a8a6;" styleClass="openWorldReviewButton1" stylesheets="@FXMLOpenWorldGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="openWorldReviewButton2" layoutX="645.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleOpenWorldReviewButton2" style="-fx-background-color: #a5a8a6;" styleClass="openWorldReviewButton2" stylesheets="@FXMLOpenWorldGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="openWorldReviewButton3" layoutX="645.0" layoutY="249.0" mnemonicParsing="false" onAction="#handleOpenWorldReviewButton3" style="-fx-background-color: #a5a8a6;" styleClass="openWorldDownloadButton3" stylesheets="@FXMLOpenWorldGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="openWorldReviewButton4" layoutX="645.0" layoutY="316.0" mnemonicParsing="false" onAction="#handleOpenWorldReviewButton4" style="-fx-background-color: #a5a8a6;" styleClass="openWorldReviewButton4" stylesheets="@FXMLOpenWorldGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="openWorldReviewButton5" layoutX="645.0" layoutY="384.0" mnemonicParsing="false" onAction="#handleOpenWorldReviewButton5" style="-fx-background-color: #a5a8a6;" styleClass="openWorldReviewButton5" stylesheets="@FXMLOpenWorldGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

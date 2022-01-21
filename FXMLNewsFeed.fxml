@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="476.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLNewsFeedController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="900.0" layoutX="-6.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/wallpapertip_materialistic-wallpaper_1817653.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="33.0" text="News Feed" textFill="#70b8a4">
+         <font>
+            <Font name="Arial Bold Italic" size="30.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Text fill="#70b8a4" layoutX="132.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is our top 3 latest added games among all category">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <ImageView fitHeight="165.0" fitWidth="200.0" layoutX="715.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(6).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="categoryButton" layoutX="699.0" layoutY="422.0" mnemonicParsing="false" onAction="#handleCategoryButton" prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: #a1c2c9;" styleClass="categoryButton" stylesheets="@FXMLNewsFeed.css" text="Category">
+         <font>
+            <Font name="Courier New Bold" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="newsFeedBackButton" layoutX="62.0" layoutY="432.0" mnemonicParsing="false" onAction="#handleNewsFeedBackButton" prefHeight="36.0" prefWidth="69.0" style="-fx-background-color: #a1c2c9;" styleClass="newsFeedBackButton" stylesheets="@FXMLNewsFeed.css" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="133.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="133.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="133.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(7).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="204.0" layoutY="183.0" prefHeight="27.0" prefWidth="426.0" text="Call of Duty : Mobile - Day of Reckoning (2.3 GB)" textFill="#85daff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="204.0" layoutY="255.0" prefHeight="27.0" prefWidth="437.0" text="Crashlands: Story-Driven Crafting ARPG (96 MB)" textFill="#85daff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="204.0" layoutY="330.0" prefHeight="24.0" prefWidth="357.0" text="Modern Combat 5 : eSports FPS (1.5 GB)" textFill="#85daff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="NFReviewButton1" layoutX="712.0" layoutY="184.0" mnemonicParsing="false" onAction="#handleNFReviewButton1" style="-fx-background-color: #a1c2c9;" styleClass="actionReviewButton1" stylesheets="@FXMLActionGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="NFReviewButton2" layoutX="712.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleNFReviewButton2" style="-fx-background-color: #a1c2c9;" styleClass="actionReviewButton2" stylesheets="@FXMLActionGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="NFReviewButton3" layoutX="712.0" layoutY="329.0" mnemonicParsing="false" onAction="#handleNFReviewButton3" style="-fx-background-color: #a1c2c9;" styleClass="actionReviewButton3" stylesheets="@FXMLActionGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

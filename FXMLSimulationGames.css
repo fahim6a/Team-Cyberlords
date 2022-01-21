@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2021, 10:31:41 PM
+    Author     : ASUS
+*/
+
+.simulationDownloadButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationDownloadButton1:pressed{
+    -fx-border-color:skyblue;
+}
+
+
+.simulationDownloadButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationDownloadButton2:pressed{
+    -fx-border-color:skyblue;
+}
+
+
+.simulationDownloadButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationDownloadButton3:pressed{
+    -fx-border-color:skyblue;
+}
+
+
+
+.simulationDownloadButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationDownloadButton4:pressed{
+    -fx-border-color:skyblue;
+}
+
+.simulationDownloadButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationDownloadButton5:pressed{
+    -fx-border-color:skyblue;
+}
+.simulationReviewButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationReviewButton1:pressed{
+    -fx-border-color:skyblue;
+}
+.simulationReviewButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationReviewButton2:pressed{
+    -fx-border-color:skyblue;
+}
+.simulationReviewButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationReviewButton3:pressed{
+    -fx-border-color:skyblue;
+}
+.simulationReviewButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationReviewButton4:pressed{
+    -fx-border-color:skyblue;
+}
+.simulationReviewButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.simulationReviewButton5:pressed{
+    -fx-border-color:skyblue;
+}
+.SimulationBackButton:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 8px 0px;
+   
+}
+
+.SimulationBackButton:pressed{
+    -fx-border-color:skyblue;
+   
+}

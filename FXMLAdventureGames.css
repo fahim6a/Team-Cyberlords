@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2021, 8:54:23 PM
+    Author     : ASUS
+*/
+
+
+.adventureDownloadButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureDownloadButton1:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureDownloadButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureDownloadButton2:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureDownloadButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureDownloadButton3:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureDownloadButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureDownloadButton4:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureDownloadButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureDownloadButton5:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureReviewButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureReviewButton1:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureReviewButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureReviewButton2:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureReviewButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureReviewButton3:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureReviewButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureReviewButton4:pressed{
+    -fx-border-color:skyblue;
+}
+.adventureReviewButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.adventureReviewButton5:pressed{
+    -fx-border-color:skyblue;
+}
+.AdventureBackButton:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 8px 0px;
+   
+}
+
+.AdventureBackButton:pressed{
+    -fx-border-color:skyblue;
+   
+}

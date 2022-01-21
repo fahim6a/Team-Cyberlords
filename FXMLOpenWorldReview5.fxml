@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="321.0" prefWidth="761.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLOpenWorldReview5Controller">
+   <stylesheets>
+      <URL value="@fxmlactionreview1.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="762.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7f96a2" layoutX="232.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Gangstar Crime (4.3/5)">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Text fill="#eaad84" layoutX="62.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eaad84" layoutX="152.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Playstore Review (zaraali)">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="openWorldGame5Back" layoutX="613.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleOpenWorldGame5Back" style="-fx-background-color: #a1c2c9;" styleClass="openWorldGame5Back" stylesheets="@FXMLOpenWorldReview5.css" text="Back">
+         <font>
+            <Font name="Courier New Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <JFXTextArea focusColor="#464040" labelFloat="true" layoutX="101.0" layoutY="160.0" prefHeight="132.0" prefWidth="567.0" text="Very intresting game.Full of fun and entertainment. Graphics are also awesome. Wonderful game. Runs smoothly .it is a awesome game for me and also the public use and the way it is going is awesome and great for the first time user and i like it" unFocusColor="#514a4a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.89" contrast="0.75" hue="1.0" saturation="0.59" />
+         </effect>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

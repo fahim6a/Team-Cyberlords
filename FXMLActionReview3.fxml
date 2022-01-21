@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="330.0" prefWidth="761.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLActionReview3Controller">
+   <stylesheets>
+      <URL value="@fxmlactionreview1.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="762.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7f96a2" layoutX="162.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modern Combat 5 : eSports FPS  (4.3/5)">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <JFXTextArea focusColor="#464040" labelFloat="true" layoutX="42.0" layoutY="110.0" prefHeight="190.0" prefWidth="650.0" text="Truely amazing! This game franchise has yet again proven itself to be able to compete with other PC FPS games such as Counter-Strike: Global Offencive (CSGO), PUBG and CoD: BO4. The Gameloft team continue out-do themselves, improve and innovate on the FPS genre with each installment.The gunplay in this game is nothing short of immersive with the realistic weapon recoil and damage output. In addistion, the sound effects for this game are phenomenal with each weapon sounding more realistic than the IRL firearms they were based off of. Apart from the outstanding Gameplay, this game offers some of the best graphics I've ever seen in a video game before. " unFocusColor="#514a4a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.89" contrast="0.75" hue="1.0" saturation="0.59" />
+         </effect>
+      </JFXTextArea>
+      <Text fill="#eaad84" layoutX="52.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eaad84" layoutX="142.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Steam Community (Jon_redding2007)">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="actionGame3Back" layoutX="603.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleActionGame3Back" style="-fx-background-color: #a1c2c9;" styleClass="actionGame1Back" stylesheets="@FXMLActionReview3.css" text="Back">
+         <font>
+            <Font name="Courier New Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

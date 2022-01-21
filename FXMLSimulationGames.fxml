@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLSimulationGamesController">
+   <children>
+      <ImageView fitHeight="507.0" fitWidth="925.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(31).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="25.0" text="Top 5 Simulation Games" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="101.0" text="1." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="173.0" text="2." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="248.0" text="3." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="315.0" text="4." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="70.0" layoutY="383.0" text="5." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(22)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(23).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(24)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(25).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="123.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(26).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="101.0" prefHeight="27.0" prefWidth="426.0" text="Top Eleven 2021: Be a Soccer Manager (94 MB)" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="173.0" prefHeight="27.0" prefWidth="426.0" text="Crime City Sneak Thief Simulator (87 MB)" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="248.0" prefHeight="24.0" prefWidth="357.0" text="SimCity BuildIt (143 MB)" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="315.0" prefHeight="27.0" prefWidth="380.0" text="Transport Empire: Steam Tycoon (247 MB)" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="194.0" layoutY="383.0" prefHeight="27.0" prefWidth="518.0" text="Project CARS GO (789 MB)" textFill="#b3e5ea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="SimulationBackButton" layoutX="52.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleSimulationBackButton" prefHeight="36.0" prefWidth="69.0" style="-fx-background-color: #96a8bf;" styleClass="SimulationBackButton" stylesheets="@FXMLSimulationGames.css" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="165.0" fitWidth="200.0" layoutX="745.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(6).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SimulationDownloadButton1" layoutX="202.0" layoutY="133.0" mnemonicParsing="false" onAction="#handleSimulationDownloadButton1" style="-fx-background-color: #96a8bf;" styleClass="simulationDownloadButton1" stylesheets="@FXMLSimulationGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="SimulationDownloadButton2" layoutX="202.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleSimulationDownloadButton2" style="-fx-background-color: #96a8bf;" styleClass="simulationDownloadButton2" stylesheets="@FXMLSimulationGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="SimulationDownloadButton3" layoutX="202.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleSimulationDownloadButton3" style="-fx-background-color: #96a8bf;" styleClass="simulationDownloadButton3" stylesheets="@FXMLSimulationGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="SimulationDownloadButton4" layoutX="202.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleSimulationDownloadButton4" style="-fx-background-color: #96a8bf;" styleClass="simulationDownloadButton4" stylesheets="@FXMLSimulationGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="SimulationDownloadButton5" layoutX="202.0" layoutY="419.0" mnemonicParsing="false" onAction="#handleSimulationDownloadButton5" style="-fx-background-color: #96a8bf;" styleClass="simulationDownloadButton5" stylesheets="@FXMLSimulationGames.css" text="Download">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="simulationReviewButton1" layoutX="689.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleSimulationBackButton1" style="-fx-background-color: #96a8bf;" styleClass="simulationReviewButton1" stylesheets="@FXMLSimulationGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="simulationReviewButton2" layoutX="689.0" layoutY="172.0" mnemonicParsing="false" onAction="#handleSimulationBackButton2" style="-fx-background-color: #96a8bf;" styleClass="simulationReviewButton2" stylesheets="@FXMLSimulationGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="simulationReviewButton3" layoutX="689.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleSimulationBackButton3" style="-fx-background-color: #96a8bf;" styleClass="simulationReviewButton3" stylesheets="@FXMLSimulationGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="simulationReviewButton4" layoutX="689.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleSimulationBackButton4" style="-fx-background-color: #96a8bf;" styleClass="simulationReviewButton4" stylesheets="@FXMLSimulationGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="simulationReviewButton5" layoutX="689.0" layoutY="382.0" mnemonicParsing="false" onAction="#handleSimulationBackButton5" style="-fx-background-color: #96a8bf;" styleClass="simulationReviewButton5" stylesheets="@FXMLSimulationGames.css" text="Go">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

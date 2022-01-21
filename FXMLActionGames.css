@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2021, 1:02:11 PM
+    Author     : ASUS
+*/
+
+.ActionDownloadButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.ActionDownloadButton1:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.ActionDownloadButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.ActionDownloadButton2:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.ActionDownloadButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.ActionDownloadButton3:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.ActionDownloadButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.ActionDownloadButton4:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.ActionDownloadButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.ActionDownloadButton5:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.actionReviewButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.actionReviewButton1:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.actionReviewButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.actionReviewButton2:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.actionReviewButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.actionReviewButton3:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.actionReviewButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.actionReviewButton4:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.actionReviewButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.actionReviewButton5:pressed{
+    -fx-border-color:skyblue;
+   
+}
+.ActionBackButton:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 8px 0px;
+   
+}
+
+.ActionBackButton:pressed{
+    -fx-border-color:skyblue;
+   
+}

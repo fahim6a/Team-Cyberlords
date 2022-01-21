@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLCategoryController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/wallpapertip_materialistic-wallpaper_1817653.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="actionButton" layoutX="275.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleActionButton" prefHeight="42.0" prefWidth="287.0" style="-fx-background-color: #d0b2d1;" styleClass="actionButton" stylesheets="@FXMLCategory.css" text="Action">
+         <font>
+            <Font name="Courier New Bold" size="26.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="adventureButton" layoutX="276.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleAdventureButton" prefHeight="42.0" prefWidth="287.0" style="-fx-background-color: #d0b2d1;" styleClass="adventureButton" stylesheets="@FXMLCategory.css" text=" Adventure">
+         <font>
+            <Font name="Courier New Bold" size="26.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="openWorldButton" layoutX="276.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleOpenWorldButton" prefHeight="42.0" prefWidth="287.0" style="-fx-background-color: #d0b2d1;" styleClass="openWorldButton" stylesheets="@FXMLCategory.css" text="Open-World">
+         <font>
+            <Font name="Courier New Bold" size="25.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="simulationButton" layoutX="275.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleSimulationButton" prefHeight="42.0" prefWidth="287.0" style="-fx-background-color: #d0b2d1;" styleClass="simulationButton" stylesheets="@FXMLCategory.css" text="Simulation">
+         <font>
+            <Font name="Courier New Bold" size="26.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="back1Button" layoutX="55.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleBack1Button" prefHeight="42.0" prefWidth="80.0" style="-fx-background-color: #d0b2d1;" styleClass="back1Button" stylesheets="@FXMLCategory.css" text="Back">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="165.0" fitWidth="200.0" layoutX="721.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/MicrosoftTeams-image%20(6).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

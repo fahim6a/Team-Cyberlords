@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="755.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamersaide.FXMLAdventureReview1Controller">
+   <stylesheets>
+      <URL value="@fxmlactionreview1.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="762.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GamersAideImage/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#7f96a2" layoutX="284.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80 Days (4.3/5)">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <JFXTextArea focusColor="#464040" labelFloat="true" layoutX="84.0" layoutY="118.0" prefHeight="188.0" prefWidth="590.0" text="A beautiful, sprawling game. The writing is great and filled with swashbuckling, wit, and heart. I played it at the recommendation of a friend, and I'll admit I was skeptical at first. The mechanics take a bit of getting used to, but after I got the hang of it I was on the edge of my seat. The choose-your-own-adventure story takes unexpected twists and turns that flow as naturally as a novel. Here's a few things that have happened to me in my story:- I explored a city which walks across the desert on mechanical legs- I sailed with pirates on a ship called &quot;The Spicy Jake&quot;- I escaped a city in the midst of a revolt.If you're into text-based games or narrative games, don't pass this up. It rocks." unFocusColor="#514a4a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.89" contrast="0.75" hue="1.0" saturation="0.59" />
+         </effect>
+      </JFXTextArea>
+      <Text fill="#eaad84" layoutX="59.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eaad84" layoutX="149.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Steam Community (Grim)">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="adventureGame1Back" layoutX="607.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleAdventureGame1Back" style="-fx-background-color: #a1c2c9;" styleClass="adventureGame1Back" stylesheets="@FXMLAdventureReview1.css" text="Back">
+         <font>
+            <Font name="Courier New Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

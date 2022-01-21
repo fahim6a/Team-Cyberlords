@@ -1,0 +1,145 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gamersaide;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
+/**
+ * FXML Controller class
+ *
+ * @author User
+ */
+public class FXMLCategoryController implements Initializable {
+
+    @FXML
+    private Button actionButton;
+    @FXML
+    private Button adventureButton;
+    @FXML
+    private Button openWorldButton;
+    @FXML
+    private Button simulationButton;
+    @FXML
+    private Button back1Button;
+
+    /**
+     * Initializes the controller class.
+     */
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+
+    @FXML
+    private void handleActionButton(ActionEvent event) throws IOException {
+         try {
+            Parent root= FXMLLoader.load(getClass().getResource("FXMLActionGames.fxml"));
+
+            Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("FXMLQuestion2.css").toExternalForm());
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.resizableProperty().setValue(false);
+            stage.show();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+         
+        
+    }
+
+  
+
+    @FXML
+    private void handleAdventureButton(ActionEvent event) throws IOException {
+        try {
+            Parent root= FXMLLoader.load(getClass().getResource("FXMLAdventureGames.fxml"));
+
+            Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("FXMLQuestion2.css").toExternalForm());
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.resizableProperty().setValue(false);
+            stage.show();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+         
+        
+       
+    }
+
+
+
+    @FXML
+    private void handleSimulationButton(ActionEvent event) throws IOException {
+        try {
+            Parent root= FXMLLoader.load(getClass().getResource("FXMLSimulationGames.fxml"));
+
+            Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("FXMLQuestion2.css").toExternalForm());
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.resizableProperty().setValue(false);
+            stage.show();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+         
+        
+      
+    }
+
+    @FXML
+    private void handleBack1Button(ActionEvent event) throws IOException {
+        try {
+            Parent root= FXMLLoader.load(getClass().getResource("FXMLNewsFeed.fxml"));
+
+            Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("FXMLQuestion2.css").toExternalForm());
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.resizableProperty().setValue(false);
+            stage.show();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+         
+        
+     
+    }
+
+    @FXML
+    private void handleOpenWorldButton(ActionEvent event) throws IOException {
+        try {
+            Parent root= FXMLLoader.load(getClass().getResource("FXMLOpenWorldGames.fxml"));
+
+            Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("FXMLQuestion2.css").toExternalForm());
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.resizableProperty().setValue(false);
+            stage.show();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+         
+        
+         
+    }
+    
+}

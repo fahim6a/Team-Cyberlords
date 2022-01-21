@@ -1,0 +1,11 @@
+.actionGame1Back:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 8px 0px;
+   
+}
+
+.actionGame1Back:pressed{
+    -fx-border-color:skyblue;
+   
+}

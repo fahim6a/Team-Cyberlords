@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2021, 9:18:09 PM
+    Author     : ASUS
+*/
+.openWorldDownloadButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldDownloadButton1:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldDownloadButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldDownloadButton2:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldDownloadButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldDownloadButton3:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldDownloadButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldDownloadButton4:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldDownloadButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldDownloadButton5:pressed{
+    -fx-border-color:skyblue;
+}
+
+.openWorldReviewButton1:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldReviewButton1:pressed{
+    -fx-border-color:skyblue;
+}
+
+.openWorldReviewButton2:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldReviewButton2:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldReviewButton3:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldReviewButton3:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldReviewButton4:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldReviewButton4:pressed{
+    -fx-border-color:skyblue;
+}
+.openWorldReviewButton5:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 6px 0px;
+   
+}
+
+.openWorldReviewButton5:pressed{
+    -fx-border-color:skyblue;
+}
+.OpenWorldBackButton:hover{
+    
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 8px 0px;
+   
+}
+
+.OpenWorldBackButton:pressed{
+    -fx-border-color:skyblue;
+   
+}
